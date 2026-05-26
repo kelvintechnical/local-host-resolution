@@ -1,11 +1,11 @@
 # Lab: Configuring Local Host Resolution with `/etc/hosts`
 
-**Series:** linux-ops-mastery — RHCSA Networking
-**Subjects covered:** `/etc/hosts` format (IP FQDN aliases), order of fields, duplicate name hazards, `getent hosts` vs `ping`, NSS (`/etc/nsswitch.conf`) **files** vs **dns** precedence, why local overrides exist, editing safely with copy-and-replace
-**Career arcs covered:** RHCSA (name resolution triage appears constantly on EX200), RHCE (Ansible `lineinfile` / templates for cluster `/etc/hosts`), SRE (bootstrap before DNS exists in DR), DevOps (temporary service mesh discovery before Consul), AI/MLOps (multi-node training rings that hardcode peer names)
-**Prerequisite:** Lab 36 or equivalent — you can `ping` an IP and know what a hostname is
-**Time Estimate:** 30 to 45 minutes
-**Difficulty arc:** Task 1 backup + baseline · 2–3 single and multi-alias mappings · 4 prove NSS order · 5 duplicate / typo edge cases · 6 RHCSA capstone + cleanup
+- **Series:** linux-ops-mastery — RHCSA Networking
+- **Subjects covered:** `/etc/hosts` format (IP FQDN aliases), order of fields, duplicate name hazards, `getent hosts` vs `ping`, NSS (`/etc/nsswitch.conf`) **files** vs **dns** precedence, why local overrides exist, editing safely with copy-and-replace
+- **Career arcs covered:** RHCSA (name resolution triage appears constantly on EX200), RHCE (Ansible `lineinfile` / templates for cluster `/etc/hosts`), SRE (bootstrap before DNS exists in DR), DevOps (temporary service mesh discovery before Consul), AI/MLOps (multi-node training rings that hardcode peer names)
+- **Prerequisite:** Lab 36 or equivalent — you can `ping` an IP and know what a hostname is
+- **Time Estimate:** 30 to 45 minutes
+- **Difficulty arc:** Task 1 backup + baseline · 2–3 single and multi-alias mappings · 4 prove NSS order · 5 duplicate / typo edge cases · 6 RHCSA capstone + cleanup
 
 ---
 
